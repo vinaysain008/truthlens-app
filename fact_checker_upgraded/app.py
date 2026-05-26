@@ -10,7 +10,7 @@ load_dotenv()
 SERPER_API_KEY = os.getenv("SERPER_API_KEY")
 
 st.set_page_config(
-    page_title="TruthLens",
+    page_title="Fact-Check Agent",
     page_icon="🔎",
     layout="wide"
 )
@@ -88,7 +88,7 @@ a {
 
 st.markdown("""
 <div class="top-card">
-    <div class="app-title">TruthLens</div>
+    <div class="app-title">Fact-Check Agent</div>
     <div class="app-subtitle">
         Upload a PDF and check factual claims using live web search.
     </div>
